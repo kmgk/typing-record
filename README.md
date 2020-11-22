@@ -1,24 +1,13 @@
-# README
+## setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+install dependencies
 
-Things you may want to cover:
+```bash
+$ bundle config set path 'vendor/bundle'
+```
 
-* Ruby version
+start dev server
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+$ bundle exec rails s -b 0.0.0.0
+```
